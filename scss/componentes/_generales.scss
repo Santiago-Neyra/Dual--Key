@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+$ancho: 100%;
+/*GENERALES*/
+
+
+.noticias, .quienes-index, .seccion-preguntas, .seccion-contactos, footer, .destacados, .titulo-destacados, .marcas{
+    width: $ancho - 10%;
+    margin: auto;
+    max-width: 1920px;
+    margin-top: 0px;
+}
+
+#rojo{
+    color: red;
+}
+
+
+
+
+
+/* AL BODY*/
+body{
+    background-image: url(../MULTIMEDIA/Sitio-Fondo_6.png);
+    background-repeat: repeat;
+    background-size: contain;
+}

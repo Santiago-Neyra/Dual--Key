@@ -1,0 +1,152 @@
+.marcas{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-top: 8px;
+    img{
+        width: 80%;
+    }
+}
+
+footer {
+
+    background-image: url(../MULTIMEDIA/plantillabanner.png);
+    border-radius: 2%;
+    background-size: cover;
+    background-repeat: no-repeats;
+    background-color: rgba(0, 0, 0, .9);
+    margin-top: 10px;
+
+    h3 {
+        color: rgb(201, 21, 21);
+        font-family: 'Exo', sans-serif;
+        margin-bottom: 0px;
+    }
+
+    ul {
+        list-style: none;
+
+        li {
+            text-align: left;
+
+            a {
+                color: grey;
+                text-decoration: none;
+                font-family: 'Signika', sans-serif;
+
+            }
+        }
+    }
+
+}
+
+.iconos-redes {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+
+.ban {
+    width: 100%;
+}
+
+.lista-tres {
+    display: inline-block
+}
+
+.lista-tres li {
+    display: inline;
+}
+
+.footer-general {
+    color: grey;
+}
+
+.lista-footer-uno,
+.lista-footer-dos,
+.lista-footer-tres {
+    justify-content: center;
+    display: flex;
+}
+
+.lista-tres {
+    margin: auto;
+}
+
+.titulos-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.lista-dos,
+.lista-uno {
+    margin: 0;
+}
+
+.lista-dos,
+.lista-uno,
+.lista-tres {
+    padding: 0%;
+}
+
+.lista-uno li,
+.lista-dos li {
+    display: flex;
+    justify-content: center;
+}
+
+.lista-footer-tres {
+    margin-top: 6%;
+}
+
+.lista-tres a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.titulo-footer-uno,
+.titulo-footer-dos,
+.titulo-footer-tres {
+    font-size: large;
+}
+
+.row-footer {
+    padding: 10px;
+    align-items: center;
+}
+
+/* icono wp*/
+.icono-wp {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+
+}
+
+.seccion-derechos {
+
+    width: 90%;
+    margin: auto;
+    margin-bottom: 0px;
+
+    .contenedor-copy {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+            display: flex;
+            align-items: center;
+            margin: 0 !important;
+        }
+
+        .creador {
+            strong {
+                margin-left: 8px;
+            }
+
+
+
+        }
+    }
+}

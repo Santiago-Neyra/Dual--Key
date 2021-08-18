@@ -1,0 +1,57 @@
+.body-error{
+    background-image: url(../MULTIMEDIA/among-us-minimal-colorful-space-5k-8k-amoled-1920x1080-4081.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vh;
+    height: 100vh;
+    max-width: 100vh;
+    
+}
+.caja-error{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    h1{
+        color: white;
+        animation-name: error;
+        animation-duration: 15s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 0;
+        animation-iteration-count: infinite;
+    }
+
+    
+
+}
+@keyframes error{
+    50%{
+        transform:translateX(100vh) rotate(360deg) scale(2) translateY(20%) ;
+        color: pink;
+    }
+    100%{
+        transform: rotate (720deg) ;
+    }
+}
+.parrafito{
+    font-size: 2.5rem;
+    position: absolute;
+    top: 60%;
+    left: 17%;
+    color: rgb(240, 158, 172);
+
+}
+.button{
+    font-size: 2rem;
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    background-color: rgb(85, 75, 75);
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.button:hover{
+    background-color: rgb(51, 46, 46);
+    color: rgb(240, 158, 172);
+}

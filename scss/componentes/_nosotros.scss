@@ -1,0 +1,70 @@
+@import '../base/maps';
+/* NOSOTROS*/
+$color-textos: rgb(255, 255, 255);
+$color-fondo-titulo: black;
+
+
+
+
+
+.caja-titulo-nosotros {
+    width: 90%;
+    margin: auto;
+
+    h2 {
+        @include titulos-secciones;
+        padding: 10px;
+        margin-top: 10px;
+        font-family: map-get($titulos, font);
+        letter-spacing: 6px;
+    }
+
+}
+.container-nosotros {
+    background-image: url(../MULTIMEDIA/Sitio-Fondo.png);
+    background-size: cover;
+    width: 90%;
+    margin: auto;
+}
+
+.color-parrafo-quienes {
+    color: $color-textos;
+    font-family: map-get($textos, font);
+    text-align: center;
+    font-size: map-get($textos, font-size);
+}
+
+.sub-nosotros {
+    display: flex;
+    justify-content: center;
+    color: $color-textos;
+    font-family: map-get($titulos, font);
+    font-size: map-get($subtitulos, font-size);
+
+    text-align: center;
+}
+
+.rows-principales {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container-nosotros {
+    width: 90%;
+    padding: 3%;
+}
+
+.container {
+    width: 90%;
+}
+
+.col-fotos {
+    display: flex;
+
+    img {
+        border-radius: 10px;
+        margin: auto;
+        width: 60%;
+        border: solid 3px rgb(94, 93, 93);
+    }
+}

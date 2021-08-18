@@ -1,0 +1,70 @@
+@import '../base/maps';
+
+/* preguntas frecuentes*/
+.seccion-preguntas {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 90%;
+    .caja-titulo-preguntas {
+        @include titulos-secciones;
+        padding: 10px;
+        font-size: map-get($titulos, font-size);
+        font-family: map-get($titulos, font);
+        letter-spacing: map-get($titulos, letter-spacing);
+        .titulo-preguntas {
+            margin: 0;
+        }
+    
+    }
+    .seccion-preg-back {
+        margin-top: 10px;
+        background-image: url(../MULTIMEDIA/fondopreguntas.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        .seccion-preguntas-sin-titulo {
+            background-color: rgba(215, 215, 168, .7);
+            padding-top: 10px;
+            padding-bottom: 10px;
+        
+            border-radius: 10px;
+        
+        
+        }
+    }
+    
+
+
+}
+
+.sub-preguntas {
+    font-size: map-get($subtitulos, font-size);
+    font-weight: bold;
+    font-family: map-get($subtitulos, font);
+}
+
+
+.caja-sub-uno,
+.caja-sub-dos,
+.caja-sub-tres,
+.caja-sub-cuatro,
+.texto-pregunta {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.texto-pregunta {
+    font-size: map-get($texto-grande, font-size);
+    color: black;
+    font-family: map-get($texto-grande,font);
+}
+
+
+
+.parrafo-dos {
+    height: 80%;
+}
+
+.titulo-dos {
+    height: 10%;
+}
+

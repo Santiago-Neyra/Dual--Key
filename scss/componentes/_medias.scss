@@ -1,0 +1,105 @@
+@media only screen and (max-width:800px) {
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+
+    html {
+        font-size: 11px;
+    }
+
+    .noticia-uno {
+        width: auto;
+    }
+
+    .noticia-unoydos {
+        display: block;
+
+    }
+
+    .noticia-dos {
+        width: 95%;
+    }
+
+    .col {
+        flex: auto;
+    }
+
+    .fotos-row {
+        width: 70%;
+    }
+
+    .footer-tres ul li img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .iconos-redes {
+        width: 20px;
+    }
+    .caja-mapa{
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .caja-contacto-dos{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width:600px) {
+    body {
+        background-color: sandybrown;
+    }
+
+    html {
+        font-size: 11px;
+    }
+
+    .footer-tres ul li img {
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+@media only screen and (min-width:1024px) {
+    body {
+        background-color: rebeccapurple;
+
+    }
+
+
+
+    html {
+        font-size: 13px;
+    }
+
+    nav .lista-menu li a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-family: 'Signika', sans-serif;
+        font-size: 1rem;
+
+    }
+}
+
+
+@media only screen and (min-width:1200px) {
+    html {
+        font-size: 16px;
+    }
+
+    body {
+        background-color: white;
+    }
+
+    nav .lista-menu li a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-family: 'Signika', sans-serif;
+        font-size: 1.3rem;
+
+    }
+}

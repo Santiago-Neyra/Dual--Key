@@ -1,0 +1,62 @@
+/* TODO AL HEADER*/
+.icon-desplegable {
+    display: flex;
+    height: auto;
+    align-content: center;
+    justify-content: center;
+}
+
+.primera-linea {
+    background-color: rgb(0, 0, 0);
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 10px;
+    /*.caja-carrito{
+        width: 20%;
+        display: flex;
+        justify-content: flex-end;
+        .carrito{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }*/
+}
+
+.color {
+    background-image: url(../MULTIMEDIA/plantillabanner.png);
+
+}
+
+.nav-links {
+    color: white;
+    font-family: 'Exo', sans-serif;
+    font-size: 1.5rem;
+}
+
+.nav-item:hover .nav-links {
+    color: red;
+}
+
+.nav-item {
+    padding: 20px;
+}
+
+.desple {
+    background-color: black;
+
+}
+
+.desple li a {
+    color: white;
+}
+
+.navbar {
+    display: contents;
+}
+
+.icono-dk:hover img {
+    transform: rotate(360deg);
+    transition: transform 1s;
+}
