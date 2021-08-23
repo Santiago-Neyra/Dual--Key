@@ -52,6 +52,14 @@ body {
   }*/
 }
 
+.span-desp {
+  height: 35px;
+  width: 35px;
+}
+.span-desp .boton-desp {
+  width: 100%;
+}
+
 .color {
   background-image: url(../MULTIMEDIA/plantillabanner.png);
 }
