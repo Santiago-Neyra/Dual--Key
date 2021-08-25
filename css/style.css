@@ -142,7 +142,7 @@ body {
 .parrafo-tres {
   color: black;
   font-family: "Roboto";
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .titulo-uno,
@@ -244,7 +244,7 @@ body {
   padding-left: 3%;
   padding-right: 3%;
   font-family: "Roboto";
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .boton-nosotros {
@@ -437,7 +437,7 @@ footer ul li a {
   background-color: #111514;
   border-radius: 10px;
   margin-top: 10px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: "Roboto";
 }
 .seccion-contactos .caja-texto-contacto .texto-contacto {
@@ -565,7 +565,7 @@ footer ul li a {
 }
 
 .sub-preguntas {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: bold;
   font-family: "Roboto";
 }
@@ -580,7 +580,7 @@ footer ul li a {
 }
 
 .texto-pregunta {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: black;
   font-family: "Roboto";
 }
@@ -621,7 +621,7 @@ footer ul li a {
   color: white;
   font-family: "Roboto";
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .sub-nosotros {
@@ -629,7 +629,7 @@ footer ul li a {
   justify-content: center;
   color: white;
   font-family: "Exo";
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
