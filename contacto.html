@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="MULTIMEDIA/icono logo.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="copy" content="Dual Key">
   <meta name="author" content="Santiago Neyra">
   <!-- Bootstrap CSS -->
@@ -116,18 +117,18 @@
       </section>
       <section class="caja-contacto-dos col-md-6 col-12">
 
-        <form action="enviar2.php" method="POST" id="formu" class="form">
+        <form action="enviar.php" method="POST" id="formu" class="form" name="contact-form">
           <div class="form-uno">
             <h2 class="form-title">CONTACTANOS</h2>
           </div>
-          <label for="nombre" class="form-label">Nombres:</label>
-          <input type="text" id="nombre" class="form-input" placeholder="Escriba su nombre">
-          <label for="direccion" class="form-label">Dirección:</label>
-          <input type="text" id="direccion" class="form-input" placeholder="Escriba su dirección">
-          <label for="correo" class="form-label">Correo electronico:</label>
-          <input type="text" id="correo" class="form-input" placeholder="Escriba su correo electronico">
+          <label for="name" class="form-label">Nombres:</label>
+          <input type="text" id="name" class="form-input" placeholder="Escriba su nombre" name="nombre">
+          <label for="direc" class="form-label">Dirección:</label>
+          <input type="text" id="direc" class="form-input" placeholder="Escriba su dirección" name="direccion">
+          <label for="email" class="form-label">Correo electronico:</label>
+          <input type="text" id="email" class="form-input" placeholder="Escriba su correo electronico" name="correo">
           <label for="mensaje" class="form-label">Mensaje:</label>
-          <textarea type="text" id="mensaje" class="form-textarea" placeholder="Escriba su mensaje"> </textarea>
+          <textarea type="text" id="mensaje" class="form-textarea" placeholder="Escriba su mensaje" name="mensaje"> </textarea>
           <input type="submit" class="btn-submit" value="Enviar consulta">
         </form>
       </section>
