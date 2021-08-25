@@ -388,7 +388,12 @@ footer ul li a {
 .icono-wp {
   position: fixed;
   bottom: 2%;
-  right: 2%;
+  right: 1%;
+  width: 35px;
+  height: 35px;
+}
+.icono-wp img {
+  width: 100%;
 }
 
 .seccion-derechos {
