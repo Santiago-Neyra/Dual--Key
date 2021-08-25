@@ -108,6 +108,7 @@ body {
   border-top: solid #020202 1px;
   border-bottom: black solid 1px;
   position: relative;
+  border-radius: 35px 0px;
 }
 .noticias h2 {
   margin: auto;
@@ -120,6 +121,7 @@ body {
   display: flex;
   justify-content: center;
   color: white;
+  border-radius: 35px 0px;
 }
 .novedades h2 {
   letter-spacing: 6px;
@@ -134,7 +136,7 @@ body {
   background-repeat: repeat;
   background-size: contain;
   margin: 10px;
-  border-radius: 7px;
+  border-radius: 35px 0px;
 }
 
 .parrafo-uno,

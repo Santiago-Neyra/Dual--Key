@@ -9,6 +9,7 @@
     border-top: solid rgb(2, 2, 2) 1px;
     border-bottom: black solid 1px;
     position: relative;
+    border-radius: 35px 0px;
 
     h2 {
         margin: auto;
@@ -21,6 +22,7 @@
 
 .novedades {
     @include titulos-secciones;
+    border-radius: 35px 0px;
 
     h2 {
 
@@ -37,7 +39,7 @@
     background-repeat: repeat;
     background-size: contain;
     margin: 10px;
-    border-radius: 7px;
+    border-radius: 35px 0px;
 }
 
 .parrafo-uno,
