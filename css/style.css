@@ -39,17 +39,6 @@ body {
   justify-content: space-around;
   padding: 10px;
   margin-bottom: 10px;
-  /*.caja-carrito{
-      width: 20%;
-      display: flex;
-      justify-content: flex-end;
-      .carrito{
-
-          display: flex;
-          justify-content: center;
-          align-items: center;
-      }
-  }*/
 }
 
 .span-desp {
@@ -413,6 +402,11 @@ footer ul li a {
 }
 .seccion-derechos .contenedor-copy .creador strong {
   margin-left: 8px;
+}
+
+.icono-wp:hover img {
+  transform: rotate(360deg) scale(1.4);
+  transition: transform 1.5s;
 }
 
 /*contacto*/

@@ -155,3 +155,7 @@ footer {
         }
     }
 }
+.icono-wp:hover img {
+    transform: rotate(360deg) scale(1.4);
+    transition: transform 1.5s;
+}
