@@ -32,6 +32,11 @@ body {
   justify-content: center;
 }
 
+.icono-carrito {
+  width: 25px;
+  height: 25px;
+}
+
 .primera-linea {
   background-color: black;
   justify-content: space-around;
