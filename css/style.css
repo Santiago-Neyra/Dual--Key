@@ -725,6 +725,11 @@ footer ul li a {
     width: 20px;
     height: 20px;
   }
+
+  .card-img-top {
+    margin: auto;
+    width: 50%;
+  }
 }
 @media only screen and (min-width: 1024px) {
   body {
@@ -921,6 +926,11 @@ footer ul li a {
 .button:hover {
   background-color: #332e2e;
   color: #f09eac;
+}
+
+.card-img-top {
+  margin: auto;
+  width: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
