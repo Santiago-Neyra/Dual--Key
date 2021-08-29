@@ -707,6 +707,11 @@ footer ul li a {
   .caja-contacto-dos {
     width: 100%;
   }
+
+  .card-index {
+    width: 50%;
+    margin: auto;
+  }
 }
 @media only screen and (min-width: 600px) {
   html {
@@ -733,6 +738,11 @@ footer ul li a {
     text-decoration: none;
     font-family: "Signika", sans-serif;
     font-size: 1rem;
+  }
+
+  .card-img-top {
+    margin: auto;
+    width: 100%;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -912,7 +922,7 @@ footer ul li a {
   color: #f09eac;
 }
 
-.card-img-top {
+.card-img-productos {
   margin: auto;
   width: 50%;
 }
