@@ -1,7 +1,4 @@
 @media only screen and (max-width:800px) {
-    body {
-        background-color: rgb(255, 255, 255);
-    }
 
     html {
         font-size: 13px;
@@ -49,12 +46,8 @@
 }
 
 @media only screen and (min-width:600px) {
-    body {
-        background-color: sandybrown;
-    }
-
     html {
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .footer-tres ul li img {
@@ -69,10 +62,6 @@
 }
 
 @media only screen and (min-width:1024px) {
-    body {
-        background-color: rebeccapurple;
-
-    }
 
 
 
@@ -93,10 +82,6 @@
 @media only screen and (min-width:1200px) {
     html {
         font-size: 16px;
-    }
-
-    body {
-        background-color: white;
     }
 
     nav .lista-menu li a {
