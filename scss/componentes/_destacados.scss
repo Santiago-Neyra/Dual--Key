@@ -14,3 +14,10 @@
     font-size: map-get($titulos , font-size );
     font-weight: bolder;
 }
+.destacadas-ipad{
+    width: 90%;
+    margin: auto;
+    img{
+        width: 50% ;
+    }
+}

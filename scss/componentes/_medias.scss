@@ -1,3 +1,8 @@
+@media only screen and (max-width:550px){
+    .card-index{
+        width: 50%;
+    }
+}
 @media only screen and (max-width:800px) {
 
     html {
@@ -42,14 +47,10 @@
     .caja-contacto-dos{
         width: 100%;
     }
-    .card-index{
-        width: 50%;
-        margin: auto;
-    }
-
+    
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:800px) {
     html {
         font-size: 13px;
     }
@@ -58,9 +59,8 @@
         width: 20px;
         height: 20px;
     }
-    .card-img-top{
-        margin: auto;
-        width: 50%;
+    .card-index{
+        width: 100% !important;
     }
 
 }
@@ -81,9 +81,9 @@
 
     }
     
-    .card-img-top{
+    .card-index{
         margin: auto;
-        width: 100%;
+        width: 100% !important;
     }
 }
 

@@ -663,6 +663,11 @@ footer ul li a {
   border: solid 3px #5e5d5d;
 }
 
+@media only screen and (max-width: 550px) {
+  .card-index {
+    width: 50%;
+  }
+}
 @media only screen and (max-width: 800px) {
   html {
     font-size: 13px;
@@ -707,13 +712,8 @@ footer ul li a {
   .caja-contacto-dos {
     width: 100%;
   }
-
-  .card-index {
-    width: 50%;
-    margin: auto;
-  }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
   html {
     font-size: 13px;
   }
@@ -723,9 +723,8 @@ footer ul li a {
     height: 20px;
   }
 
-  .card-img-top {
-    margin: auto;
-    width: 50%;
+  .card-index {
+    width: 100% !important;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -740,9 +739,9 @@ footer ul li a {
     font-size: 1rem;
   }
 
-  .card-img-top {
+  .card-index {
     margin: auto;
-    width: 100%;
+    width: 100% !important;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -863,6 +862,14 @@ footer ul li a {
   font-family: "Exo";
   font-size: 2rem;
   font-weight: bolder;
+}
+
+.destacadas-ipad {
+  width: 90%;
+  margin: auto;
+}
+.destacadas-ipad img {
+  width: 50%;
 }
 
 .body-error {
