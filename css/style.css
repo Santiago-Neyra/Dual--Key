@@ -934,4 +934,8 @@ footer ul li a {
   width: 50%;
 }
 
+.primer-col, .segunda-col {
+  margin-top: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
