@@ -5,3 +5,39 @@
 .primer-col, .segunda-col{
     margin-top: 10px;
 }
+.precio{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+.stock{
+    color: rgb(75, 225, 75);
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.card-title{
+    text-align: center;
+    font-size: map-get($textos, font-size);
+    
+}
+.añadir{
+    color: rgb(181, 35, 35);
+    border: solid 2px ;
+    text-decoration: none;
+    padding: 3px;
+    box-shadow: black 3px 3px 3px;
+}
+.añadir:hover{
+    color: rgb(255, 255, 255);
+    border: solid 2px  rgb(181, 35, 35) ;
+    background-color:  rgb(181, 35, 35);
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 3px;
+}
+.caja-carrito{
+    display: flex;
+    justify-content: center;
+}

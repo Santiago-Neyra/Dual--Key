@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -144,7 +145,7 @@ body {
 .titulo-uno,
 .titulo-dos,
 .titulo-tres {
-  color: red;
+  color: #b52323;
   display: flex;
   font-size: 1.6rem;
   text-align: center;
@@ -936,6 +937,47 @@ footer ul li a {
 
 .primer-col, .segunda-col {
   margin-top: 10px;
+}
+
+.precio {
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+}
+
+.stock {
+  color: #4be14b;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.añadir {
+  color: #b52323;
+  border: solid 2px;
+  text-decoration: none;
+  padding: 3px;
+  box-shadow: black 3px 3px 3px;
+}
+
+.añadir:hover {
+  color: white;
+  border: solid 2px #b52323;
+  background-color: #b52323;
+  text-decoration: none;
+  transition: 0.5s;
+  padding: 3px;
+}
+
+.caja-carrito {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
