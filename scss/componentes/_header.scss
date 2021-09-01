@@ -44,7 +44,8 @@
 }
 
 .nav-item {
-    padding: 20px;
+    padding: 5px 20px;
+    margin: auto;
 }
 
 .desple {
@@ -54,6 +55,7 @@
 
 .desple li a {
     color: white;
+    text-align: center;
 }
 
 .navbar {
@@ -64,3 +66,4 @@
     transform: rotate(360deg);
     transition: transform 1s;
 }
+

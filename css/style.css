@@ -70,7 +70,8 @@ body {
 }
 
 .nav-item {
-  padding: 20px;
+  padding: 5px 20px;
+  margin: auto;
 }
 
 .desple {
@@ -79,6 +80,7 @@ body {
 
 .desple li a {
   color: white;
+  text-align: center;
 }
 
 .navbar {
@@ -672,6 +674,10 @@ footer ul li a {
   }
 }
 @media only screen and (max-width: 800px) {
+  .desple-producto {
+    margin-left: 20px;
+  }
+
   html {
     font-size: 13px;
   }
@@ -722,6 +728,10 @@ footer ul li a {
     font-size: 13px;
   }
 
+  .desple-producto {
+    margin-left: 20px;
+  }
+
   .footer-tres ul li img {
     width: 20px;
     height: 20px;
@@ -732,6 +742,10 @@ footer ul li a {
   }
 }
 @media only screen and (min-width: 1024px) {
+  .desple-producto {
+    margin-left: 0px;
+  }
+
   html {
     font-size: 13px;
   }
