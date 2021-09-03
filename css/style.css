@@ -20,6 +20,10 @@
   color: red;
 }
 
+.idrojo {
+  color: red !important;
+}
+
 /* AL BODY*/
 body {
   background-color: #fafbfd;
