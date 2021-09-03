@@ -87,9 +87,19 @@ body {
   display: contents;
 }
 
+.icono-dk img {
+  width: 80px;
+  height: 80px;
+}
+
 .icono-dk:hover img {
   transform: rotate(360deg);
   transition: transform 1s;
+}
+
+.boton-buscar img {
+  width: 25px;
+  height: 25px;
 }
 
 /* banner*/
