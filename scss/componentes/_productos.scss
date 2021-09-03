@@ -41,3 +41,30 @@
     display: flex;
     justify-content: center;
 }
+.caja-botones{
+    margin-top: 10px;
+    div{
+        button{
+            background-color: rgb(255, 255, 255);
+            border: 1px rgb(181, 35, 35) solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button:hover{
+            background-color: rgb(181, 35, 35);
+            border: rgb(181, 35, 35) 1px solid;
+        }
+    }
+}
+.numero-pagina{
+    background-color: rgb(255, 255, 255);
+            border: 1px rgb(181, 35, 35) solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            margin: 0px 3px;
+            color: rgb(181, 35, 35);
+            font-weight: bolder;
+}

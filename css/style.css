@@ -997,4 +997,31 @@ footer ul li a {
   justify-content: center;
 }
 
+.caja-botones {
+  margin-top: 10px;
+}
+.caja-botones div button {
+  background-color: white;
+  border: 1px #b52323 solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.caja-botones div button:hover {
+  background-color: #b52323;
+  border: #b52323 1px solid;
+}
+
+.numero-pagina {
+  background-color: white;
+  border: 1px #b52323 solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 0px 3px;
+  color: #b52323;
+  font-weight: bolder;
+}
+
 /*# sourceMappingURL=style.css.map */
