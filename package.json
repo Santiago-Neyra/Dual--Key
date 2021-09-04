@@ -1,11 +1,17 @@
 {
-  "name": "clear",
+  "name": "Dual-Key-Gaming",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author":{
+    
+    "name": "Santiago Neyra",
+    "email": "santineyra97@gmail.com",
+    "url": "https://www.linkedin.com/in/santiago-neyra-8305b8216/"
+    
+  },
   "license": "ISC",
-  "description": ""
+  "description": "Dual Key gaming es una web dedicada a la venta de Pcs gamer y hardware a pedido, nos encontramos en la ciudad de Rosario, podes encontrar una gran variedad de productos de primera calidad"
 }
