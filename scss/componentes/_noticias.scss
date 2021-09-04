@@ -11,7 +11,7 @@
     position: relative;
     border-radius: 35px 0px;
     .novedades {
-        @include titulos-secciones;
+        @include caja-texto($fondo,$color,10px);
         border-radius: 35px 0px;
     
         h2 {

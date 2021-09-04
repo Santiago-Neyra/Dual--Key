@@ -6,7 +6,7 @@
     margin-bottom: 8px;
     width: 90%;
     .caja-titulo-preguntas {
-        @include titulos-secciones;
+        @include caja-texto($fondo,$color,10px);
         padding: 10px;
         font-size: map-get($titulos, font-size);
         font-family: map-get($titulos, font);

@@ -8,7 +8,7 @@
 
 
     h2 {
-        @include titulos-secciones;
+        @include caja-texto($fondo,$color,10px);
         padding: 10px;
         margin-top: 10px;
         font-family: map-get($titulos, font);

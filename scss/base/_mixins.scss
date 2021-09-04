@@ -1,9 +1,10 @@
+$color:white;
+$fondo:black;
 
-
-@mixin titulos-secciones{
-    border-radius: 10px;
-    background-color: black;
+@mixin caja-texto ($fondo,$color,$borde) {
+    background-color: $fondo;
+    color:$color;
     display: flex;
     justify-content: center;
-    color:rgb(255, 255, 255);
+    border-radius: $borde;
 };

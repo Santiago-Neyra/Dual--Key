@@ -14,7 +14,7 @@
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    @include titulos-secciones;
+    @include caja-texto($fondo,$color,10px);
     .titulo-contacto {
         letter-spacing: 6px;
         padding: 5px;
