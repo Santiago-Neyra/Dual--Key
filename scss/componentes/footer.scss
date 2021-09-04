@@ -47,7 +47,6 @@ footer {
     height: 25px;
 }
 
-
 .ban {
     width: 100%;
 }
@@ -56,28 +55,21 @@ footer {
     display: inline-block
 }
 
-.lista-tres li {
+.lista-tres{
+    margin: auto;
+    li {
     display: inline;
 }
-
+}
 .footer-general {
     color: grey;
 }
 
 .lista-footer-uno,
 .lista-footer-dos,
-.lista-footer-tres {
+.lista-footer-tres, .titulos-footer, .lista-uno li, .lista-dos li {
     justify-content: center;
     display: flex;
-}
-
-.lista-tres {
-    margin: auto;
-}
-
-.titulos-footer {
-    display: flex;
-    justify-content: center;
 }
 
 .lista-dos,
@@ -89,12 +81,6 @@ footer {
 .lista-uno,
 .lista-tres {
     padding: 0%;
-}
-
-.lista-uno li,
-.lista-dos li {
-    display: flex;
-    justify-content: center;
 }
 
 .lista-footer-tres {
@@ -129,7 +115,13 @@ footer {
     }
 
 }
+.icono-wp:hover img {
+    transform: rotate(360deg) scale(1.4);
+    transition: transform 1.5s;
+}
 
+/*FIN icono wp*/
+/*SECCION DERECHOS*/
 .seccion-derechos {
 
     width: 90%;
@@ -157,7 +149,4 @@ footer {
         }
     }
 }
-.icono-wp:hover img {
-    transform: rotate(360deg) scale(1.4);
-    transition: transform 1.5s;
-}
+/*FIN SECCION DERECHOS*/

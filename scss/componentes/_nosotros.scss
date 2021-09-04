@@ -25,15 +25,8 @@ $color-fondo-titulo: black;
     background-size: cover;
     width: 90%;
     margin: auto;
+    padding: 3%;
 }
-
-.color-parrafo-quienes {
-    color: $color-textos;
-    font-family: map-get($textos, font);
-    text-align: center;
-    font-size: map-get($textos, font-size);
-}
-
 .sub-nosotros {
     display: flex;
     justify-content: center;
@@ -43,21 +36,19 @@ $color-fondo-titulo: black;
 
     text-align: center;
 }
+.color-parrafo-quienes {
+    color: $color-textos;
+    font-family: map-get($textos, font);
+    text-align: center;
+    font-size: map-get($textos, font-size);
+}
+
+
 
 .rows-principales {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
-.container-nosotros {
-    width: 90%;
-    padding: 3%;
-}
-
-.container {
-    width: 90%;
-}
-
 .col-fotos {
     display: flex;
 

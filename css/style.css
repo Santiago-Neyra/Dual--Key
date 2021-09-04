@@ -12,24 +12,12 @@
   margin-top: 0px;
 }
 
-.link-prodcutos {
+#rojo, .idrojo {
   color: red !important;
-}
-
-#rojo {
-  color: red;
-}
-
-.idrojo {
-  color: red !important;
-}
-
-/* AL BODY*/
-body {
-  background-color: #fafbfd;
 }
 
 /* TODO AL HEADER*/
+/*TAMAÑOS Y EFECTOS ICONOS*/
 .icon-desplegable {
   display: flex;
   height: auto;
@@ -38,57 +26,13 @@ body {
   width: 35px;
   height: 35px;
 }
-
-.icono-carrito {
-  width: 25px;
-  height: 25px;
-}
-
-.primera-linea {
-  background-color: black;
-  justify-content: space-around;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.span-desp {
-  height: 35px;
-  width: 35px;
-}
-.span-desp .boton-desp {
+.icon-desplegable .boton-desp {
   width: 100%;
 }
 
-.color {
-  background-image: url(../MULTIMEDIA/plantillabanner.jpg);
-}
-
-.nav-links {
-  color: white;
-  font-family: "Exo", sans-serif;
-  font-size: 1.5rem;
-}
-
-.nav-item:hover .nav-links {
-  color: red;
-}
-
-.nav-item {
-  padding: 5px 20px;
-  margin: auto;
-}
-
-.desple {
-  background-color: black;
-}
-
-.desple li a {
-  color: white;
-  text-align: center;
-}
-
-.navbar {
-  display: contents;
+.icono-carrito, .lupa-icon {
+  width: 25px;
+  height: 25px;
 }
 
 .icono-dk img {
@@ -101,11 +45,45 @@ body {
   transition: transform 1s;
 }
 
-.boton-buscar img {
-  width: 25px;
-  height: 25px;
+/*FIN TAMAÑO Y EFECTOS ICONOS*/
+.primera-linea {
+  background-color: black;
+  justify-content: space-around;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
+.color {
+  background-image: url(../MULTIMEDIA/plantillabanner.jpg);
+}
+
+.nav-item:hover .nav-links {
+  color: red;
+}
+
+.nav-item {
+  padding: 5px 20px;
+  margin: auto;
+}
+.nav-item .nav-links {
+  color: white;
+  font-family: "Exo", sans-serif;
+  font-size: 1.5rem;
+}
+
+.desple {
+  background-color: black;
+}
+.desple li a {
+  color: white;
+  text-align: center;
+}
+
+.navbar {
+  display: contents;
+}
+
+/*FIN FONDOS Y COLOR DE TEXTO*/
 /* banner*/
 .seccion-banner {
   margin-top: 10px;
@@ -121,12 +99,7 @@ body {
   position: relative;
   border-radius: 35px 0px;
 }
-.noticias h2 {
-  margin: auto;
-  padding: 2%;
-}
-
-.novedades {
+.noticias .novedades {
   border-radius: 10px;
   background-color: black;
   display: flex;
@@ -134,10 +107,21 @@ body {
   color: white;
   border-radius: 35px 0px;
 }
-.novedades h2 {
+.noticias .novedades h2 {
   letter-spacing: 6px;
   font-size: 2rem;
   font-family: "Exo";
+}
+.noticias .titulo-uno,
+.noticias .titulo-dos,
+.noticias .titulo-tres {
+  color: #b52323;
+  display: flex;
+  font-size: 1.6rem;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  padding: 2%;
 }
 
 .noticia-uno,
@@ -158,15 +142,6 @@ body {
   font-size: 1rem;
 }
 
-.titulo-uno,
-.titulo-dos,
-.titulo-tres {
-  color: #b52323;
-  display: flex;
-  font-size: 1.6rem;
-  text-align: center;
-}
-
 .titulo-uno h2,
 .titulo-dos h2,
 .titulo-tres h2 {
@@ -180,16 +155,11 @@ body {
   padding-bottom: 10px;
 }
 
-.noticia-uno {
-  width: 50%;
-}
-
-.noticia-dos {
-  width: 50%;
-}
-
 .noticia-unoydos {
   display: flex;
+}
+.noticia-unoydos .noticia-uno, .noticia-unoydos .noticia-dos {
+  width: 50%;
 }
 
 .parrafo-uno {
@@ -205,10 +175,6 @@ body {
   margin: auto;
   max-width: 90%;
   padding-bottom: 4%;
-}
-
-.noticias {
-  background-color: black;
 }
 
 /* TODO SOBRE QUIENES SOMOS*/
@@ -336,6 +302,9 @@ footer ul li a {
   display: inline-block;
 }
 
+.lista-tres {
+  margin: auto;
+}
 .lista-tres li {
   display: inline;
 }
@@ -346,18 +315,9 @@ footer ul li a {
 
 .lista-footer-uno,
 .lista-footer-dos,
-.lista-footer-tres {
+.lista-footer-tres, .titulos-footer, .lista-uno li, .lista-dos li {
   justify-content: center;
   display: flex;
-}
-
-.lista-tres {
-  margin: auto;
-}
-
-.titulos-footer {
-  display: flex;
-  justify-content: center;
 }
 
 .lista-dos,
@@ -369,12 +329,6 @@ footer ul li a {
 .lista-uno,
 .lista-tres {
   padding: 0%;
-}
-
-.lista-uno li,
-.lista-dos li {
-  display: flex;
-  justify-content: center;
 }
 
 .lista-footer-tres {
@@ -409,6 +363,13 @@ footer ul li a {
   width: 100%;
 }
 
+.icono-wp:hover img {
+  transform: rotate(360deg) scale(1.4);
+  transition: transform 1.5s;
+}
+
+/*FIN icono wp*/
+/*SECCION DERECHOS*/
 .seccion-derechos {
   width: 90%;
   margin: auto;
@@ -428,11 +389,7 @@ footer ul li a {
   margin-left: 8px;
 }
 
-.icono-wp:hover img {
-  transform: rotate(360deg) scale(1.4);
-  transition: transform 1.5s;
-}
-
+/*FIN SECCION DERECHOS*/
 /*contacto*/
 .caja-contacto-uno {
   margin-top: 7px;
@@ -640,13 +597,7 @@ footer ul li a {
   background-size: cover;
   width: 90%;
   margin: auto;
-}
-
-.color-parrafo-quienes {
-  color: white;
-  font-family: "Roboto";
-  text-align: center;
-  font-size: 1rem;
+  padding: 3%;
 }
 
 .sub-nosotros {
@@ -658,18 +609,16 @@ footer ul li a {
   text-align: center;
 }
 
+.color-parrafo-quienes {
+  color: white;
+  font-family: "Roboto";
+  text-align: center;
+  font-size: 1rem;
+}
+
 .rows-principales {
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
-.container-nosotros {
-  width: 90%;
-  padding: 3%;
-}
-
-.container {
-  width: 90%;
 }
 
 .col-fotos {
@@ -879,31 +828,6 @@ footer ul li a {
   width: 40px;
 }
 
-.p-destacado {
-  margin: 10px;
-  border: solid black 1px;
-  border-left: black 1px solid !important;
-  box-shadow: black 2px 2px 5px;
-}
-
-.destacados {
-  margin-bottom: 30px;
-}
-
-.titulo-destacados {
-  font-family: "Exo";
-  font-size: 2rem;
-  font-weight: bolder;
-}
-
-.destacadas-ipad {
-  width: 90%;
-  margin: auto;
-}
-.destacadas-ipad img {
-  width: 50%;
-}
-
 .body-error {
   background-image: url(../MULTIMEDIA/among-us-minimal-colorful-space-5k-8k-amoled-1920x1080-4081.jpg);
   background-repeat: no-repeat;
@@ -1037,5 +961,33 @@ footer ul li a {
   color: #b52323;
   font-weight: bolder;
 }
+
+/*PRODUCTOS DESTACADOS*/
+.p-destacado {
+  margin: 10px;
+  border: solid black 1px;
+  border-left: black 1px solid !important;
+  box-shadow: black 2px 2px 5px;
+}
+
+.destacados {
+  margin-bottom: 30px;
+}
+
+.titulo-destacados {
+  font-family: "Exo";
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.destacadas-ipad {
+  width: 90%;
+  margin: auto;
+}
+.destacadas-ipad img {
+  width: 50%;
+}
+
+/*FIN PRODUCTOS DESTACADOS*/
 
 /*# sourceMappingURL=style.css.map */
