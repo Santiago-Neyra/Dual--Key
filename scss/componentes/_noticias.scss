@@ -21,18 +21,12 @@
             font-family: map-get($titulos, font);
         }
     }
-    .titulo-uno,
-.titulo-dos,
-.titulo-tres {
-    color: rgb(181, 35, 35);
-    display: flex;
-    font-size: 1.6rem;
-    text-align: center;
-    justify-content: center;
-    margin: auto;
-    padding: 2%;
-
+    
+    h2 {
+        margin: auto;
+        padding: 2%;
 }
+
 }
 
 
@@ -55,6 +49,15 @@
 
 }
 
+.titulo-uno,
+.titulo-dos,
+.titulo-tres {
+    color: rgb(181, 35, 35);
+    display: flex;
+    font-size: 1.6rem;
+    text-align: center;
+
+}
 
 .titulo-uno h2,
 .titulo-dos h2,
@@ -68,17 +71,24 @@
     padding-right: 15px;
     padding-bottom: 10px
 }
+
+.noticia-uno, .noticia-dos {
+    width: 50%;
+
+
+
+}
+
 .noticia-unoydos {
     display: flex;
-    .noticia-uno, .noticia-dos {
-        width: 50%;
-    }
 }
+
 .parrafo-uno {
     text-align: justify;
     padding-top: 4%;
     padding: 15px;
 }
+
 .parrafo-dos {
     display: flex;
 

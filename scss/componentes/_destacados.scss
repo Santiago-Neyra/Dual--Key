@@ -1,0 +1,23 @@
+.p-destacado{
+    margin: 10px;
+    border: solid black 1px;
+    border-left: black 1px solid !important;
+    box-shadow: black 2px 2px 5px;
+    
+    
+}
+.destacados{
+    margin-bottom: 30px;
+}
+.titulo-destacados{
+    font-family: map-get($titulos, font );
+    font-size: map-get($titulos , font-size );
+    font-weight: bolder;
+}
+.destacadas-ipad{
+    width: 90%;
+    margin: auto;
+    img{
+        width: 50% ;
+    }
+}
