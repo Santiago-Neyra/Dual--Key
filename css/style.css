@@ -313,6 +313,10 @@ footer ul li a {
   color: grey;
 }
 
+.row-footer li:hover a {
+  color: white;
+}
+
 .lista-footer-uno,
 .lista-footer-dos,
 .lista-footer-tres, .titulos-footer, .lista-uno li, .lista-dos li {
