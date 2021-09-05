@@ -74,7 +74,7 @@
     position: absolute;
     top: 40px;
     right: 40px;
-    background-color: rgb(65, 10, 10);
+    background-color: rgb(255, 255, 255);
     border: solid 3px black;
     text-decoration: none;
     width: 40px;
@@ -87,7 +87,7 @@
 
 .next {
     display: block;
-    background-color: rgb(65, 10, 10);
+    background-color: rgb(255, 255, 255);
     text-decoration: none;
     text-align: center;
     border-radius: 50%;
@@ -96,6 +96,7 @@
     align-items: center;
     width: 40px;
     height: 40px;
+    border: 2px solid black;
 
     line-height: 30px;
 

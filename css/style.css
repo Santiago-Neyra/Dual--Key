@@ -181,10 +181,6 @@
 }
 
 /* TODO SOBRE QUIENES SOMOS*/
-.noticias {
-  background-color: black;
-}
-
 .quienes-index {
   /*imagen de fondo*/
   background-image: url(../MULTIMEDIA/nosotrosfondosnuevos4.jpg);
@@ -193,55 +189,48 @@
   border-top: white solid 5px;
   border-bottom: 5px solid white;
 }
-
-.titulo-quienes {
+.quienes-index .titulo-quienes {
   display: flex;
   justify-content: center;
 }
-
-.titulo-quienes h2 {
+.quienes-index .titulo-quienes h2 {
   padding: 2.5%;
   letter-spacing: 6px;
   font-size: 2rem;
   font-family: "Exo";
   font-weight: bolder;
 }
-
-.fotos-nosotros {
-  width: 20%;
-  margin: auto;
-  border-radius: 10%;
-  border: solid grey 4px;
-}
-
-.imagen-quienes {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  padding-bottom: 20px;
-}
-
-.parrafo-quienes {
+.quienes-index .parrafo-quienes {
   padding-bottom: 2%;
   padding-left: 3%;
   padding-right: 3%;
   font-family: "Roboto";
   font-size: 1.2rem;
 }
-
-.boton-nosotros {
+.quienes-index .imagen-quienes {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+.quienes-index .imagen-quienes .fotos-nosotros {
+  width: 20%;
+  margin: auto;
+  border-radius: 10%;
+  border: solid grey 4px;
+}
+.quienes-index .boton-nosotros {
   display: flex;
   justify-content: center;
 }
-
-.boton-nosotros p {
+.quienes-index .boton-nosotros p {
   background-color: black;
   padding: 10px;
   border-radius: 20px;
   color: white;
+  border: 1px solid grey;
 }
-
-.boton-nosotros p a {
+.quienes-index .boton-nosotros p a {
   color: white;
   text-decoration: none;
 }
@@ -613,6 +602,7 @@ footer ul li a {
   color: white;
   font-family: "Exo";
   font-size: 1.5rem;
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -638,112 +628,6 @@ footer ul li a {
   border: solid 3px #5e5d5d;
 }
 
-@media only screen and (max-width: 550px) {
-  .card-index {
-    width: 50%;
-  }
-}
-@media only screen and (max-width: 800px) {
-  .desple-producto {
-    margin-left: 20px;
-  }
-
-  html {
-    font-size: 13px;
-  }
-
-  .noticia-uno {
-    width: auto;
-  }
-
-  .noticia-unoydos {
-    display: block;
-  }
-
-  .noticia-dos {
-    width: 95%;
-  }
-
-  .col {
-    flex: auto;
-  }
-
-  .fotos-row {
-    width: 70%;
-  }
-
-  .footer-tres ul li img {
-    width: 20px;
-    height: 20px;
-  }
-
-  .iconos-redes {
-    width: 20px;
-    height: 20px;
-  }
-
-  .caja-mapa {
-    height: 400px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .caja-contacto-dos {
-    width: 100%;
-  }
-}
-@media only screen and (min-width: 800px) {
-  html {
-    font-size: 13px;
-  }
-
-  .desple-producto {
-    margin-left: 20px;
-  }
-
-  .footer-tres ul li img {
-    width: 20px;
-    height: 20px;
-  }
-
-  .card-index {
-    width: 100% !important;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .desple-producto {
-    margin-left: 0px;
-  }
-
-  html {
-    font-size: 13px;
-  }
-
-  nav .lista-menu li a {
-    color: white;
-    text-decoration: none;
-    font-family: "Signika", sans-serif;
-    font-size: 1rem;
-  }
-
-  .card-index {
-    margin: auto;
-    width: 100% !important;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  html {
-    font-size: 16px;
-  }
-
-  nav .lista-menu li a {
-    color: white;
-    text-decoration: none;
-    font-family: "Signika", sans-serif;
-    font-size: 1.3rem;
-  }
-}
 /* GALERIA */
 .seccion-galeria {
   width: 90%;
@@ -808,7 +692,7 @@ footer ul li a {
   position: absolute;
   top: 40px;
   right: 40px;
-  background-color: #410a0a;
+  background-color: white;
   border: solid 3px black;
   text-decoration: none;
   width: 40px;
@@ -820,7 +704,7 @@ footer ul li a {
 
 .next {
   display: block;
-  background-color: #410a0a;
+  background-color: white;
   text-decoration: none;
   text-align: center;
   border-radius: 50%;
@@ -829,6 +713,7 @@ footer ul li a {
   align-items: center;
   width: 40px;
   height: 40px;
+  border: 2px solid black;
   line-height: 30px;
 }
 .next img {
@@ -996,5 +881,115 @@ footer ul li a {
 }
 
 /*FIN PRODUCTOS DESTACADOS*/
+@media only screen and (max-width: 550px) {
+  .card-index {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .desple-producto {
+    margin-left: 20px;
+  }
+
+  html {
+    font-size: 13px;
+  }
+
+  .noticia-uno {
+    width: auto;
+  }
+
+  .noticia-unoydos {
+    display: block;
+  }
+
+  .noticia-dos {
+    width: 95%;
+  }
+
+  .col {
+    flex: auto;
+  }
+
+  .fotos-row {
+    width: 70%;
+  }
+
+  .footer-tres ul li img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .iconos-redes {
+    width: 20px;
+    height: 20px;
+  }
+
+  .caja-mapa {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .caja-contacto-dos {
+    width: 100%;
+  }
+
+  .light-box .fotos-de-la-galeria {
+    width: 75%;
+  }
+}
+@media only screen and (min-width: 800px) {
+  html {
+    font-size: 13px;
+  }
+
+  .desple-producto {
+    margin-left: 20px;
+  }
+
+  .footer-tres ul li img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .card-index {
+    width: 100% !important;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .desple-producto {
+    margin-left: 0px;
+  }
+
+  html {
+    font-size: 13px;
+  }
+
+  nav .lista-menu li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Signika", sans-serif;
+    font-size: 1rem;
+  }
+
+  .card-index {
+    margin: auto;
+    width: 100% !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+
+  nav .lista-menu li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Signika", sans-serif;
+    font-size: 1.3rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

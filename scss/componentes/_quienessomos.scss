@@ -1,10 +1,6 @@
 @import '../base/maps';
 
 /* TODO SOBRE QUIENES SOMOS*/
-.noticias {
-    background-color: black;
-}
-
 .quienes-index {
     /*imagen de fondo*/
     background-image: url(../MULTIMEDIA/nosotrosfondosnuevos4.jpg);
@@ -12,62 +8,53 @@
     color: white;
     border-top: rgb(255, 255, 255) solid 5px;
     border-bottom: 5px solid white;
+    .titulo-quienes {
+        display: flex;
+        justify-content: center;
+        h2 {
+            padding: 2.5%;
+            letter-spacing: 6px;
+            font-size: map-get($titulos, font-size);
+            font-family: map-get($titulos, font);
+            font-weight: bolder;
+        }
+    }
+    .parrafo-quienes {
+        padding-bottom: 2%;
+        padding-left: 3%;
+        padding-right: 3%;
+        font-family: map-get($textos, font);
+        font-size: map-get($texto-grande, font-size);
+    }
+    .imagen-quienes {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        padding-bottom: 20px;
+        .fotos-nosotros {
+            width: 20%;
+            margin: auto;
+            border-radius: 10%;
+            border: solid grey 4px;
+        }
+    }
+    .boton-nosotros {
+        display: flex;
+        justify-content: center;
+        p {
+            background-color: black;
+            padding: 10px;
+            border-radius: 20px;
+            color: white;
+            border: 1px solid grey;
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
 
 }
-
-.titulo-quienes {
-    display: flex;
-    justify-content: center;
-}
-
-.titulo-quienes h2 {
-    padding: 2.5%;
-    letter-spacing: 6px;
-    font-size: map-get($titulos, font-size);
-    font-family: map-get($titulos, font);
-    font-weight: bolder;
-}
-
-.fotos-nosotros {
-    width: 20%;
-    margin: auto;
-    border-radius: 10%;
-    border: solid grey 4px;
-}
-
-.imagen-quienes {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    padding-bottom: 20px;
-}
-
-.parrafo-quienes {
-    padding-bottom: 2%;
-    padding-left: 3%;
-    padding-right: 3%;
-    font-family: map-get($textos, font);
-    font-size: map-get($texto-grande, font-size);
-}
-
-.boton-nosotros {
-    display: flex;
-    justify-content: center;
-
-}
-
-.boton-nosotros p {
-    background-color: black;
-    padding: 10px;
-    border-radius: 20px;
-    color: white;
-}
-
-.boton-nosotros p a {
-    color: white;
-    text-decoration: none;
-}
-
 .fotos-nosotros:hover {
     transform: scale(1.2);
     transition: all 2s;

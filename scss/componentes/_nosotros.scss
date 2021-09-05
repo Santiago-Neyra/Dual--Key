@@ -33,7 +33,7 @@ $color-fondo-titulo: black;
     color: $color-textos;
     font-family: map-get($titulos, font);
     font-size: map-get($subtitulos, font-size);
-
+    margin-top: 10px;
     text-align: center;
 }
 .color-parrafo-quienes {
