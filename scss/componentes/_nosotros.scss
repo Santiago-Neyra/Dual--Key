@@ -12,7 +12,7 @@ $color-fondo-titulo: black;
     margin: auto;
 
     h2 {
-        @include caja-texto($fondo,$color,10px);
+        @include caja-texto($fondo, $color, 10px);
         padding: 10px;
         margin-top: 10px;
         font-family: map-get($titulos, font);
@@ -20,6 +20,7 @@ $color-fondo-titulo: black;
     }
 
 }
+
 .container-nosotros {
     background-image: url(../MULTIMEDIA/Sitio-Fondo.jpg);
     background-size: cover;
@@ -27,6 +28,7 @@ $color-fondo-titulo: black;
     margin: auto;
     padding: 3%;
 }
+
 .sub-nosotros {
     display: flex;
     justify-content: center;
@@ -36,6 +38,7 @@ $color-fondo-titulo: black;
     margin-top: 10px;
     text-align: center;
 }
+
 .color-parrafo-quienes {
     color: $color-textos;
     font-family: map-get($textos, font);
@@ -49,6 +52,7 @@ $color-fondo-titulo: black;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 .col-fotos {
     display: flex;
 

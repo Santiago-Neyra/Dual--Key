@@ -8,9 +8,11 @@
     color: white;
     border-top: rgb(255, 255, 255) solid 5px;
     border-bottom: 5px solid white;
+
     .titulo-quienes {
         display: flex;
         justify-content: center;
+
         h2 {
             padding: 2.5%;
             letter-spacing: 6px;
@@ -19,6 +21,7 @@
             font-weight: bolder;
         }
     }
+
     .parrafo-quienes {
         padding-bottom: 2%;
         padding-left: 3%;
@@ -26,11 +29,13 @@
         font-family: map-get($textos, font);
         font-size: map-get($texto-grande, font-size);
     }
+
     .imagen-quienes {
         display: flex;
         justify-content: center;
         padding: 10px;
         padding-bottom: 20px;
+
         .fotos-nosotros {
             width: 20%;
             margin: auto;
@@ -38,15 +43,18 @@
             border: solid grey 4px;
         }
     }
+
     .boton-nosotros {
         display: flex;
         justify-content: center;
+
         p {
             background-color: black;
             padding: 10px;
             border-radius: 20px;
             color: white;
             border: 1px solid grey;
+
             a {
                 color: white;
                 text-decoration: none;
@@ -55,6 +63,7 @@
     }
 
 }
+
 .fotos-nosotros:hover {
     transform: scale(1.2);
     transition: all 2s;

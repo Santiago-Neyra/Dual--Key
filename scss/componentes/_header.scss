@@ -8,21 +8,26 @@
     justify-content: center;
     width: 35px;
     height: 35px;
-    .boton-desp{
+
+    .boton-desp {
         width: 100%;
-        }
-    
+    }
+
 }
-.icono-carrito, .lupa-icon{
+
+.icono-carrito,
+.lupa-icon {
     width: 25px;
     height: 25px;
 }
-.icono-dk{
-    img{
+
+.icono-dk {
+    img {
         width: 80px;
         height: 80px;
     }
 }
+
 .icono-dk:hover img {
     transform: rotate(360deg);
     transition: transform 1s;
@@ -35,8 +40,9 @@
     justify-content: space-around;
     padding: 10px;
     margin-bottom: 10px;
-    
+
 }
+
 .color {
     background-image: url(../MULTIMEDIA/plantillabanner.jpg);
 
@@ -46,9 +52,11 @@
 .nav-item:hover .nav-links {
     color: red;
 }
+
 .nav-item {
     padding: 5px 20px;
     margin: auto;
+
     .nav-links {
         color: white;
         font-family: 'Exo', sans-serif;
@@ -58,15 +66,17 @@
 
 .desple {
     background-color: black;
-    li{
-        a{
+
+    li {
+        a {
             color: white;
-        text-align: center;
+            text-align: center;
         }
     }
 }
+
 .navbar {
     display: contents;
 }
-/*FIN FONDOS Y COLOR DE TEXTO*/
 
+/*FIN FONDOS Y COLOR DE TEXTO*/

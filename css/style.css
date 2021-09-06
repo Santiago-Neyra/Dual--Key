@@ -5,14 +5,22 @@
 }
 
 /*GENERALES*/
-.noticias, .quienes-index, .seccion-preguntas, .seccion-contactos, footer, .destacados, .titulo-destacados, .marcas {
+.noticias,
+.quienes-index,
+.seccion-preguntas,
+.seccion-contactos,
+footer,
+.destacados,
+.titulo-destacados,
+.marcas {
   width: 90%;
   margin: auto;
   max-width: 1920px;
   margin-top: 0px;
 }
 
-#rojo, .idrojo {
+#rojo,
+.idrojo {
   color: red !important;
 }
 
@@ -30,7 +38,8 @@
   width: 100%;
 }
 
-.icono-carrito, .lupa-icon {
+.icono-carrito,
+.lupa-icon {
   width: 25px;
   height: 25px;
 }
@@ -157,7 +166,8 @@
   padding-bottom: 10px;
 }
 
-.noticia-uno, .noticia-dos {
+.noticia-uno,
+.noticia-dos {
   width: 50%;
 }
 
@@ -311,7 +321,10 @@ footer ul li a {
 
 .lista-footer-uno,
 .lista-footer-dos,
-.lista-footer-tres, .titulos-footer, .lista-uno li, .lista-dos li {
+.lista-footer-tres,
+.titulos-footer,
+.lista-uno li,
+.lista-dos li {
   justify-content: center;
   display: flex;
 }
@@ -782,7 +795,8 @@ footer ul li a {
   width: 50%;
 }
 
-.primer-col, .segunda-col {
+.primer-col,
+.segunda-col {
   margin-top: 10px;
 }
 

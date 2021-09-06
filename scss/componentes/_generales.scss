@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
@@ -7,13 +7,21 @@ $ancho: 100%;
 /*GENERALES*/
 
 
-.noticias, .quienes-index, .seccion-preguntas, .seccion-contactos, footer, .destacados, .titulo-destacados, .marcas{
+.noticias,
+.quienes-index,
+.seccion-preguntas,
+.seccion-contactos,
+footer,
+.destacados,
+.titulo-destacados,
+.marcas {
     width: $ancho - 10%;
     margin: auto;
     max-width: 1920px;
     margin-top: 0px;
 }
 
-#rojo, .idrojo{
+#rojo,
+.idrojo {
     color: red !important;
 }

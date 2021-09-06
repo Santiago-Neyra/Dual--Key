@@ -1,9 +1,10 @@
-.marcas{
+.marcas {
     display: flex;
     justify-content: center;
     background-color: black;
     margin-top: 8px;
-    img{
+
+    img {
         width: 80%;
     }
 }
@@ -55,22 +56,28 @@ footer {
     display: inline-block
 }
 
-.lista-tres{
+.lista-tres {
     margin: auto;
+
     li {
-    display: inline;
+        display: inline;
+    }
 }
-}
+
 .footer-general {
     color: grey;
 }
-.row-footer li:hover a{
-    color:white;
+
+.row-footer li:hover a {
+    color: white;
 }
 
 .lista-footer-uno,
 .lista-footer-dos,
-.lista-footer-tres, .titulos-footer, .lista-uno li, .lista-dos li {
+.lista-footer-tres,
+.titulos-footer,
+.lista-uno li,
+.lista-dos li {
     justify-content: center;
     display: flex;
 }
@@ -113,11 +120,13 @@ footer {
     right: 1%;
     width: 35px;
     height: 35px;
-    img{
+
+    img {
         width: 100%;
     }
 
 }
+
 .icono-wp:hover img {
     transform: rotate(360deg) scale(1.4);
     transition: transform 1.5s;
@@ -152,4 +161,5 @@ footer {
         }
     }
 }
+
 /*FIN SECCION DERECHOS*/

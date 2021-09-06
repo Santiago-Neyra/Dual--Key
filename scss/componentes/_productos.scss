@@ -1,95 +1,113 @@
-.card-img-productos{
+.card-img-productos {
     margin: auto;
     width: 50%;
 }
-.primer-col, .segunda-col{
+
+.primer-col,
+.segunda-col {
     margin-top: 10px;
 }
-.precio{
+
+.precio {
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     font-weight: bolder;
 }
-.stock{
+
+.stock {
     color: rgb(24, 207, 24);
     display: flex;
     justify-content: center;
     font-weight: bold;
 }
-.card-title{
+
+.card-title {
     text-align: center;
     font-size: map-get($textos, font-size);
-    
+
 }
-.añadir{
+
+.añadir {
     color: rgb(181, 35, 35);
-    border: solid 2px ;
+    border: solid 2px;
     text-decoration: none;
     padding: 3px;
     box-shadow: black 3px 3px 3px;
 }
-.añadir:hover{
+
+.añadir:hover {
     color: rgb(255, 255, 255);
-    border: solid 2px  rgb(181, 35, 35) ;
-    background-color:  rgb(181, 35, 35);
+    border: solid 2px rgb(181, 35, 35);
+    background-color: rgb(181, 35, 35);
     text-decoration: none;
     transition: 0.5s;
     padding: 3px;
 }
-.caja-carrito{
+
+.caja-carrito {
     display: flex;
     justify-content: center;
 }
-.caja-botones{
+
+.caja-botones {
     margin-top: 10px;
-    div{
-        button{
+
+    div {
+        button {
             background-color: rgb(255, 255, 255);
             border: 1px rgb(181, 35, 35) solid;
             display: flex;
             justify-content: center;
             align-items: center;
         }
-        button:hover{
+
+        button:hover {
             background-color: rgb(181, 35, 35);
             border: rgb(181, 35, 35) 1px solid;
         }
     }
 }
-.numero-pagina{
+
+.numero-pagina {
     background-color: rgb(255, 255, 255);
-            border: 1px rgb(181, 35, 35) solid;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 5px;
-            margin: 0px 3px;
-            color: rgb(181, 35, 35);
-            font-weight: bolder;
+    border: 1px rgb(181, 35, 35) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 0px 3px;
+    color: rgb(181, 35, 35);
+    font-weight: bolder;
 }
+
 /*PRODUCTOS DESTACADOS*/
-.p-destacado{
+.p-destacado {
     margin: 10px;
     border: solid black 1px;
     border-left: black 1px solid !important;
     box-shadow: black 2px 2px 5px;
-    
-    
+
+
 }
-.destacados{
+
+.destacados {
     margin-bottom: 30px;
 }
-.titulo-destacados{
-    font-family: map-get($titulos, font );
-    font-size: map-get($titulos , font-size );
+
+.titulo-destacados {
+    font-family: map-get($titulos, font);
+    font-size: map-get($titulos, font-size);
     font-weight: bolder;
 }
-.destacadas-ipad{
+
+.destacadas-ipad {
     width: 90%;
     margin: auto;
-    img{
-        width: 50% ;
+
+    img {
+        width: 50%;
     }
 }
+
 /*FIN PRODUCTOS DESTACADOS*/

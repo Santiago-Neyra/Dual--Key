@@ -1,12 +1,14 @@
-@media only screen and (max-width:550px){
-    .card-index{
+@media only screen and (max-width:550px) {
+    .card-index {
         width: 50%;
     }
 }
+
 @media only screen and (max-width:800px) {
-    .desple-producto{
+    .desple-producto {
         margin-left: 20px;
     }
+
     html {
         font-size: 13px;
     }
@@ -41,44 +43,50 @@
         width: 20px;
         height: 20px;
     }
-    .caja-mapa{
+
+    .caja-mapa {
         height: 400px;
         width: 100%;
         display: flex;
         justify-content: center;
     }
-    .caja-contacto-dos{
+
+    .caja-contacto-dos {
         width: 100%;
     }
+
     .light-box {
-        .fotos-de-la-galeria{
+        .fotos-de-la-galeria {
             width: 75%;
         }
     }
-    
+
 }
 
 @media only screen and (min-width:800px) {
     html {
         font-size: 13px;
     }
-    .desple-producto{
+
+    .desple-producto {
         margin-left: 20px;
     }
+
     .footer-tres ul li img {
         width: 20px;
         height: 20px;
     }
-    .card-index{
+
+    .card-index {
         width: 100% !important;
     }
 
 }
 
 @media only screen and (min-width:1024px) {
-   
-    
-    .desple-producto{
+
+
+    .desple-producto {
         margin-left: 0px;
     }
 
@@ -93,8 +101,8 @@
         font-size: 1rem;
 
     }
-    
-    .card-index{
+
+    .card-index {
         margin: auto;
         width: 100% !important;
     }

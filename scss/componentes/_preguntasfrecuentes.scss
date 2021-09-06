@@ -5,33 +5,37 @@
     margin-top: 8px;
     margin-bottom: 8px;
     width: 90%;
+
     .caja-titulo-preguntas {
-        @include caja-texto($fondo,$color,10px);
+        @include caja-texto($fondo, $color, 10px);
         padding: 10px;
         font-size: map-get($titulos, font-size);
         font-family: map-get($titulos, font);
         letter-spacing: map-get($titulos, letter-spacing);
+
         .titulo-preguntas {
             margin: 0;
         }
-    
+
     }
+
     .seccion-preg-back {
         margin-top: 10px;
         background-image: url(../MULTIMEDIA/fondopreguntas.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+
         .seccion-preguntas-sin-titulo {
             background-color: rgba(215, 215, 168, .7);
             padding-top: 10px;
             padding-bottom: 10px;
-        
+
             border-radius: 10px;
-        
-        
+
+
         }
     }
-    
+
 
 
 }
@@ -55,7 +59,7 @@
 .texto-pregunta {
     font-size: map-get($texto-grande, font-size);
     color: black;
-    font-family: map-get($texto-grande,font);
+    font-family: map-get($texto-grande, font);
 }
 
 
@@ -67,4 +71,3 @@
 .titulo-dos {
     height: 10%;
 }
-

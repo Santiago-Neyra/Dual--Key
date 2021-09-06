@@ -1,10 +1,12 @@
 $color:white;
 $fondo:black;
 
-@mixin caja-texto ($fondo,$color,$borde) {
+@mixin caja-texto ($fondo, $color, $borde) {
     background-color: $fondo;
-    color:$color;
+    color: $color;
     display: flex;
     justify-content: center;
     border-radius: $borde;
-};
+}
+
+;

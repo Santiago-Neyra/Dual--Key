@@ -10,22 +10,23 @@
     border-bottom: black solid 1px;
     position: relative;
     border-radius: 35px 0px;
+
     .novedades {
-        @include caja-texto($fondo,$color,10px);
+        @include caja-texto($fondo, $color, 10px);
         border-radius: 35px 0px;
-    
+
         h2 {
-    
+
             letter-spacing: map-get($titulos, letter-spacing);
             font-size: map-get($titulos, font-size);
             font-family: map-get($titulos, font);
         }
     }
-    
+
     h2 {
         margin: auto;
         padding: 2%;
-}
+    }
 
 }
 
@@ -72,7 +73,8 @@
     padding-bottom: 10px
 }
 
-.noticia-uno, .noticia-dos {
+.noticia-uno,
+.noticia-dos {
     width: 50%;
 
 
